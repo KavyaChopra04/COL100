@@ -1,13 +1,13 @@
 s=input()
-n=len(str)
+n=len(s)
 if(n==1):
 	print("YES")
-else if(n==2):
+elif(n==2):
 	if(s[0]==s[1]):
 		print("YES")
 	else:
 		print("NO")
-else if(n==3):
+elif(n==3):
 	if(s[0]==s[2]):
 		print("YES")
 	else:

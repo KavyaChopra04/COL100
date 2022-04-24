@@ -1,3 +1,3 @@
 n=int(input())
 for i in range(0,n):
-	print(' '*(i), char('a'+i)*(n-i))
+	print(' '*(i), chr(65+i)*(n-i),sep="")
